@@ -2,7 +2,7 @@ function sendMail() {
   var params = {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
-    subject: document.getElementById("judul").value,
+    judul: document.getElementById("judul").value,
 
     message: document.getElementById("message").value,
   };
